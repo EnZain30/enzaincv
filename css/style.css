@@ -8,7 +8,10 @@ body {
 	 
 }
 h1{
-	font-size: 28px;
+	font-size: 25px;
+}
+h2{
+	font-size: 25px;
 }
 .iconify { 
 	color: #0080ff; 
@@ -16,7 +19,7 @@ h1{
 
 }
 .icon-primary{
-	width: 33px; height: 33px;
+	width: 30px; height: 30px;
 }
 .iconify .md{ 
 	width: 30px; height: 30px;
