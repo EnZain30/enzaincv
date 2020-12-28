@@ -1,5 +1,5 @@
 *{
-	transition: 0.2s linear;
+	transition: 0.1s linear;
 }
 body {
 	 /* border: 1px solid black;*/
@@ -38,6 +38,9 @@ h1{
 .footer{
 	background-color: #0080ff;
 }
+.footer .iconify{
+	color: white;
+}
 
 /*##### Dark Mode #####*/
 
@@ -64,7 +67,9 @@ div.card-body.dark-mode{
 	margin-top: 3px;
 }
 
-
+hr.dark-mode{
+	background-color: white;
+}
 
 
 
