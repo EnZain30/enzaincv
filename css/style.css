@@ -1,0 +1,116 @@
+*{
+	transition: 0.2s linear;
+}
+body {
+	 /* border: 1px solid black;*/
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 15px;
+	 
+}
+h1{
+	font-size: 35px;
+}
+.iconify { 
+	color: #0080ff; 
+	width: 24px; height: 24px;
+
+}
+.icon-primary{
+	width: 40px; height: 40px;
+}
+.iconify .md{ 
+	width: 30px; height: 30px;
+
+}
+.progress-bar {
+	background-color: #0080ff !important;
+}
+.img-profile{
+	width: 100%;
+	height: 350px;
+	background-color: black;
+}
+.card img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.footer{
+	background-color: #0080ff;
+}
+
+/*##### Dark Mode #####*/
+
+
+
+body.dark{
+	background-color: #0F1215;
+
+}
+div.card-body.dark-mode{
+	background-color: #292F38;
+	color: white;
+}
+.card img.dark-mode{
+	/*box-shadow: 0px 0px 10px 4px #0080ff;*/
+	box-shadow:
+ 5px 1px 10px #CF77F3,
+   0px 5px 10px #009BFF,
+  -3px 5px 10px #2AC9DB;
+  background-image: linear-gradient(-90deg, #CF77F3 0%, #009BFF 47%, #2AC9DB 100%);
+	width: 98%;
+	height: 98%;
+	margin-left: 4px;
+	margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+.checkbox{
+	opacity: 0;
+	position: absolute;
+}
+.label{
+	background-color: #292F38;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 50px;
+	position: relative;
+	padding: 5px;
+	height: 26px;
+	width: 50px;
+	  -ms-transform: rotate(90deg); /* IE 9 */
+  transform: rotate(90deg);
+  border: 1px solid white;
+}
+.ball{
+	background-color: white;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	position: absolute;
+	transition: 0.3s linear;
+}
+div .checkbox:checked + .label .ball{
+	transform: translateX(20px);
+}
+.fa-moon{
+	color: #ffd24d;
+
+}
+.fa-lightbulb{
+	color: #f2b90d;
+}
+div.dark-toggle {
+	position: fixed;
+	top: 90%;
+	bottom: 0;
+	right: 0;
+}
